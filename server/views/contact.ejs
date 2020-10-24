@@ -1,0 +1,44 @@
+<!-- Importing Documentation -->
+<%- include partials/header.ejs%>
+<!-- Importing Navbar -->
+<%- include partials/main_nav.ejs%>
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4"><%= title %> Me</h1>
+      <!-- Contact Info -->
+      <div class="card">
+        <div class="card-body">
+          <p>Michael Courneya</p>
+          <p>pinctcourneya@gmail.com</p>
+          <p>717-926-9941</p>
+        </div>
+      </div>
+      <!-- Message Form -->
+      <form action="/">
+        <div class="form-group">
+          <label for="fName">First Name</label>
+          <input type="text" class="form-control" id="fName" placeholder="John">
+        </div>
+        <div class="form-group">
+          <label for="lName">Last Name</label>
+          <input type="text" class="form-control" id="lName" placeholder="Smith">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="johnsmith@example.com">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Form</button>
+        <button type="reset" class="btn btn-primary">Reset Form</button>
+      </form>
+    </div>
+  </main>
+<!-- Importing Bottom bar -->
+<%- include partials/bottom_nav.ejs %>
+<!-- Importing Scripts -->
+<%- include partials/footer.ejs %>
