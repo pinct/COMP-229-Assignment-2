@@ -1,5 +1,5 @@
 {
-  "name": "comp229-f2020-week4",
+  "name": "comp229-f2020-assignment2",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -31,7 +31,7 @@
     "passport-local-mongoose": "^6.0.1",
     "popper.js": "^1.16.1"
   },
-  "description": "Demo app for COMP229 Week 6",
+  "description": "Demo app for COMP229 Assignment 2",
   "main": "server.js",
   "devDependencies": {
     "@types/connect-flash": "0.0.35",
@@ -47,12 +47,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pinct/COMP229-F2020-Week6.git"
+    "url": "git+https://github.com/pinct/COMP-229-Assignment-2.git"
   },
   "author": "Michael Courneya",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pinct/COMP229-F2020-Week6/issues"
+    "url": "https://github.com/pinct/COMP-229-Assignment-2/issues"
   },
-  "homepage": "https://github.com/pinct/COMP229-F2020-Week6#readme"
+  "homepage": "https://github.com/pinct/COMP-229-Assignment-2#readme"
 }
