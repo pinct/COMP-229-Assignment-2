@@ -25,7 +25,7 @@ function requireAuth(req, res, next)
 }
 
 //Get Route for contact list page
-router.get('/', contactController.displayContactList);
+router.get('/', requireAuth, contactController.displayContactList);
 
 //Get Route for displaying Add page
 

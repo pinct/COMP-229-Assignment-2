@@ -21,18 +21,11 @@ module.exports.displayContactList = (req, res, next) =>{
         }
         else
         {
-            if (req.user)
-            {
-                res.render('contact/list', {
-                    title: 'Business Contacts', 
-                    ContactList: contactList, 
-                    displayName: req.user ? req.user.displayName: ''
-                });
-            }
-            else
-            {
-                res.redirect('/login');
-            }
+            res.render('contact/list', {
+                title: 'Business Contacts', 
+                ContactList: contactList, 
+                displayName: req.user ? req.user.displayName: ''
+            });
         }
     });
 }
