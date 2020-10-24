@@ -1,3 +1,10 @@
+/*
+  user.js
+  Michael Courneya
+  301106259
+  10/25/2020
+*/
+
 let mongoose = require('mongoose');
 let passportLocalMongoose = require('passport-local-mongoose');
 

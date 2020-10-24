@@ -1,3 +1,10 @@
+/*
+  app.js
+  Michael Courneya
+  301106259
+  10/25/2020
+*/
+
 // Installed third part packages
 let createError = require('http-errors');
 let express = require('express');

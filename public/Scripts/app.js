@@ -1,3 +1,9 @@
+/*
+  app.js
+  Michael Courneya
+  301106259
+  10/25/2020
+*/
 (function(){
     function Start()
     {

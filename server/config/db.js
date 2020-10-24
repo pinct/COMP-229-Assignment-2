@@ -1,3 +1,9 @@
+/*
+  db.js
+  Michael Courneya
+  301106259
+  10/25/2020
+*/
 module.exports = 
 {
     //"URI": "mongodb://localhost/bookstore"

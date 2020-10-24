@@ -1,3 +1,10 @@
+/*
+  users.js
+  Michael Courneya
+  301106259
+  10/25/2020
+*/
+
 var express = require('express');
 var router = express.Router();
 
